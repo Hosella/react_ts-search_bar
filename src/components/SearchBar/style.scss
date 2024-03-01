@@ -1,0 +1,28 @@
+.SearchLine {
+  background-color: gray;
+  height: 43px;
+  margin-bottom: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  &__text {
+    color: white;
+    font-size: 17px;
+  }
+
+  &__input {
+    width: 600px;
+    height: 18px;
+    border-radius: 5px;
+
+    @media screen and (max-width: 780px) {
+      width: 400px;
+    }
+
+    @media screen and (max-width: 640px) {
+      width: 250px;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.MovieItem {
+  width: 300px;
+  padding: 10px;
+  box-shadow: 2px 2px 12px gray;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  justify-content: space-between;
+
+  &__img {
+    width: 150px;
+    height: 250px;
+    align-self: center;
+    object-fit: cover;
+  }
+
+  &__title {
+    font-weight: bold;
+    align-self: center;
+    padding-block: 7px;
+  }
+
+  &__description {
+    color: grey;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+}
